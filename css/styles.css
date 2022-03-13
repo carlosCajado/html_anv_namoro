@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+section{
+  display: flex;
+  padding: 20px;
+}
+
+.cabecalho{
+  display: flex;
+  padding: 10px;
+  background-color: rgb(16, 0, 110);
+  font-family: 'Shizuru', cursive;
+  font-size: 24px;
+  justify-content: space-between;
+}
+
+.cabecalho a{
+  padding: 0 50px; /* Vertical Horizontal */
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+}
+.cabecalho a:hover{
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 0px 50px; /* Vertical Horizontal */
+  color: rgb(16, 0, 110);
+  border-radius: 10px;
+}
+#barra-pesquisa input{
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+}
+#barra-pesquisa input :focus{
+outline: none;
+}
+#inicio{
+  display: flex;
+  padding: 20px;
+  
+
+}
+.col{
+  margin: 10px;
+  justify-content:space-around;
+  vertical-align:middle ;
+}
+.col p{
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+.col img{
+  border-radius: 15px;
+}
+.center-text{
+  text-align: center;
+  padding: 80px 40px;
+}
+.center-text h1{
+  font-size: 36px;
+  margin: 20px;
+  font-family: 'Lobster', cursive;  
+}
+.center-text h2{
+  font-size: 36px;
+  margin: 20px;
+  font-family: 'Great Vibes', cursive;
+}
+.center-text p{
+  font-family: 'Times New Roman';
+}
+.button-inicio{
+  padding: 20px 150px;
+  display: flex;
+  justify-content: center;
+}
+.button-inicio input{
+  margin: 10px ;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+
+}
+#cadastre{ 
+  background-color: #110941;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Times New Roman';
+
+}
+#saiba-mais{ 
+  background-color: #5250505d;
+  color: #fff;
+  outline: none;
+  border: 1px solid #110941;
+  font-family: 'Times New Roman';
+  cursor: pointer;
+
+}
+#cadastre:hover{ 
+  background-color: #2b0dd6;
+
+}
+#saiba-mais:hover{ 
+  background-color: #464646;
+
+}
+#sobre-nos{
+  margin: 20px 0px;
+  background-color: #e7e5e5;
+
+
+}
+#sobre-nos:h1{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+#equipe{
+  font-size: 30px;
+  /* margin: 20px; */
+  background-color: rgb(2, 19, 95);
+}
+#equipe h1{
+  display:ruby-base-container;
+  font-size: 30px;
+  margin: 20px;
+}
+.card-equipe{
+background-color: rgb(141, 3, 3);
+margin: 20px;
+padding: 20px;
+border-radius: 10px;
+width: 200px;
+box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+}
+.card-equipe img{
+  border-radius: 10px;
+  width: 200px;
+  align-content: center;
+  }
+  #contatos{
+    font-size: 30px;
+    background-color: #e7e5e5;
+  }  
+.footer{
+  background-color: rgb(2, 19, 95);
+  padding: 20px;
+  color: #fff;
+  font-family: 'Times New Roman';
+
+}  
+
+
